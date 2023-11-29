@@ -1,0 +1,398 @@
+[99]	cltd                                    	%NP
+[a6]	cmpsb  %es:(%edi),%ds:(%esi)            	%NP
+[a7]	cmpsl  %es:(%edi),%ds:(%esi)            	%NP
+[98]	cwtl                                    	%NP
+[9b]	fwait                                   	
+[e380]	jecxz  0x10007a41                       	
+[e38a]	jecxz  0x10007a5f                       	
+[9f]	lahf                                    	%NP
+[9ae2808de29980]	lcall  $0x8099,$0xe28d80e2              	%NP
+[9ae2808de29982]	lcall  $0x8299,$0xe28d80e2              	%NP
+[ac]	lods   %ds:(%esi),%al                   	
+[ad]	lods   %ds:(%esi),%eax                  	%NP
+[b88fe283a3]	mov    $0xa383e28f,%eax                 	
+[b8f09f87a6]	mov    $0xa6879ff0,%eax                 	%NP
+[bbf09f87a6]	mov    $0xa6879ff0,%ebx                 	%NP
+[b9f09f87a6]	mov    $0xa6879ff0,%ecx                 	%NP
+[bff09f87a6]	mov    $0xa6879ff0,%edi                 	%NP
+[baf09f87a6]	mov    $0xa6879ff0,%edx                 	%NP
+[b8f09f87a7]	mov    $0xa7879ff0,%eax                 	%NP
+[b8f09f87a8]	mov    $0xa8879ff0,%eax                 	%NP
+[bbf09f87a8]	mov    $0xa8879ff0,%ebx                 	%NP
+[b9f09f87a8]	mov    $0xa8879ff0,%ecx                 	%NP
+[b8f09f87a9]	mov    $0xa9879ff0,%eax                 	%NP
+[b9f09f87a9]	mov    $0xa9879ff0,%ecx                 	%NP
+[b8f09f87aa]	mov    $0xaa879ff0,%eax                 	%NP
+[bbf09f87aa]	mov    $0xaa879ff0,%ebx                 	%NP
+[bef09f87aa]	mov    $0xaa879ff0,%esi                 	%NP
+[b9f09f87ab]	mov    $0xab879ff0,%ecx                 	%NP
+[bcf09f87ab]	mov    $0xab879ff0,%esp                 	%NP
+[b8f09f87ac]	mov    $0xac879ff0,%eax                 	%NP
+[bbf09f87ac]	mov    $0xac879ff0,%ebx                 	%NP
+[b9f09f87ac]	mov    $0xac879ff0,%ecx                 	%NP
+[baf09f87ac]	mov    $0xac879ff0,%edx                 	%NP
+[b8f09f87ad]	mov    $0xad879ff0,%eax                 	%NP
+[b9f09f87ad]	mov    $0xad879ff0,%ecx                 	%NP
+[b8f09f87ae]	mov    $0xae879ff0,%eax                 	%NP
+[bbf09f87ae]	mov    $0xae879ff0,%ebx                 	%NP
+[b8f09f87af]	mov    $0xaf879ff0,%eax                 	%NP
+[b9f09f87af]	mov    $0xaf879ff0,%ecx                 	%NP
+[b8f09f87b0]	mov    $0xb0879ff0,%eax                 	%NP
+[bdf09f87b0]	mov    $0xb0879ff0,%ebp                 	%NP
+[b9f09f87b0]	mov    $0xb0879ff0,%ecx                 	%NP
+[b8f09f87b1]	mov    $0xb1879ff0,%eax                 	%NP
+[b9f09f87b1]	mov    $0xb1879ff0,%ecx                 	%NP
+[b8f09f87b2]	mov    $0xb2879ff0,%eax                 	%NP
+[b9f09f87b2]	mov    $0xb2879ff0,%ecx                 	%NP
+[bff09f87b2]	mov    $0xb2879ff0,%edi                 	%NP
+[baf09f87b2]	mov    $0xb2879ff0,%edx                 	%NP
+[b8f09f87b3]	mov    $0xb3879ff0,%eax                 	%NP
+[bbf09f87b3]	mov    $0xb3879ff0,%ebx                 	%NP
+[b9f09f87b3]	mov    $0xb3879ff0,%ecx                 	%NP
+[baf09f87b3]	mov    $0xb3879ff0,%edx                 	%NP
+[b8f09f87b4]	mov    $0xb4879ff0,%eax                 	%NP
+[b9f09f87b4]	mov    $0xb4879ff0,%ecx                 	%NP
+[b8f09f87b7]	mov    $0xb7879ff0,%eax                 	%NP
+[b9f09f87b7]	mov    $0xb7879ff0,%ecx                 	%NP
+[b8f09f87b8]	mov    $0xb8879ff0,%eax                 	%NP
+[baf09f87b8]	mov    $0xb8879ff0,%edx                 	%NP
+[bcf09f87b8]	mov    $0xb8879ff0,%esp                 	%NP
+[b8f09f87b9]	mov    $0xb9879ff0,%eax                 	%NP
+[b9f09f87b9]	mov    $0xb9879ff0,%ecx                 	%NP
+[bef09f87b9]	mov    $0xb9879ff0,%esi                 	%NP
+[bbf09f87ba]	mov    $0xba879ff0,%ebx                 	%NP
+[b8f09f87bb]	mov    $0xbb879ff0,%eax                 	%NP
+[b9f09f87bb]	mov    $0xbb879ff0,%ecx                 	%NP
+[b8f09f8fbb]	mov    $0xbb8f9ff0,%eax                 	%NP
+[bdf09f8fbb]	mov    $0xbb8f9ff0,%ebp                 	%NP
+[bbf09f8fbb]	mov    $0xbb8f9ff0,%ebx                 	%NP
+[b9f09f8fbb]	mov    $0xbb8f9ff0,%ecx                 	
+[baf09f8fbb]	mov    $0xbb8f9ff0,%edx                 	%NP
+[bef09f8fbb]	mov    $0xbb8f9ff0,%esi                 	%NP
+[bcf09f8fbb]	mov    $0xbb8f9ff0,%esp                 	%NP
+[b9f09f87bc]	mov    $0xbc879ff0,%ecx                 	%NP
+[bff09f87bc]	mov    $0xbc879ff0,%edi                 	%NP
+[b8f09f8fbc]	mov    $0xbc8f9ff0,%eax                 	%NP
+[bdf09f8fbc]	mov    $0xbc8f9ff0,%ebp                 	%NP
+[bbf09f8fbc]	mov    $0xbc8f9ff0,%ebx                 	%NP
+[b9f09f8fbc]	mov    $0xbc8f9ff0,%ecx                 	
+[baf09f8fbc]	mov    $0xbc8f9ff0,%edx                 	%NP
+[bef09f8fbc]	mov    $0xbc8f9ff0,%esi                 	%NP
+[bcf09f8fbc]	mov    $0xbc8f9ff0,%esp                 	%NP
+[b8f09f87bd]	mov    $0xbd879ff0,%eax                 	%NP
+[b8f09f8fbd]	mov    $0xbd8f9ff0,%eax                 	%NP
+[bdf09f8fbd]	mov    $0xbd8f9ff0,%ebp                 	%NP
+[bbf09f8fbd]	mov    $0xbd8f9ff0,%ebx                 	%NP
+[b9f09f8fbd]	mov    $0xbd8f9ff0,%ecx                 	
+[baf09f8fbd]	mov    $0xbd8f9ff0,%edx                 	%NP
+[bef09f8fbd]	mov    $0xbd8f9ff0,%esi                 	%NP
+[bcf09f8fbd]	mov    $0xbd8f9ff0,%esp                 	%NP
+[b8f09f87be]	mov    $0xbe879ff0,%eax                 	%NP
+[baf09f87be]	mov    $0xbe879ff0,%edx                 	%NP
+[b8f09f8fbe]	mov    $0xbe8f9ff0,%eax                 	%NP
+[bdf09f8fbe]	mov    $0xbe8f9ff0,%ebp                 	%NP
+[bbf09f8fbe]	mov    $0xbe8f9ff0,%ebx                 	%NP
+[b9f09f8fbe]	mov    $0xbe8f9ff0,%ecx                 	
+[baf09f8fbe]	mov    $0xbe8f9ff0,%edx                 	%NP
+[bef09f8fbe]	mov    $0xbe8f9ff0,%esi                 	%NP
+[bcf09f8fbe]	mov    $0xbe8f9ff0,%esp                 	%NP
+[b8f09f87bf]	mov    $0xbf879ff0,%eax                 	%NP
+[b9f09f87bf]	mov    $0xbf879ff0,%ecx                 	%NP
+[baf09f87bf]	mov    $0xbf879ff0,%edx                 	%NP
+[b8f09f8fbf]	mov    $0xbf8f9ff0,%eax                 	%NP
+[bdf09f8fbf]	mov    $0xbf8f9ff0,%ebp                 	%NP
+[bbf09f8fbf]	mov    $0xbf8f9ff0,%ebx                 	%NP
+[b9f09f8fbf]	mov    $0xbf8f9ff0,%ecx                 	
+[baf09f8fbf]	mov    $0xbf8f9ff0,%edx                 	%NP
+[bef09f8fbf]	mov    $0xbf8f9ff0,%esi                 	%NP
+[bcf09f8fbf]	mov    $0xbf8f9ff0,%esp                 	%NP
+[a3f09f8fbb]	mov    %eax,0xbb8f9ff0                  	%NP
+[a3f09f8fbc]	mov    %eax,0xbc8f9ff0                  	%NP
+[a3f09f8fbd]	mov    %eax,0xbd8f9ff0                  	%NP
+[a3f09f8fbe]	mov    %eax,0xbe8f9ff0                  	%NP
+[a3f09f8fbf]	mov    %eax,0xbf8f9ff0                  	%NP
+[8e85f09f8fbf]	mov    -0x40706010(%ebp),%es            	
+[8e85f09f8fbe]	mov    -0x41706010(%ebp),%es            	
+[8e85f09f8fbd]	mov    -0x42706010(%ebp),%es            	
+[8e85f09f8fbc]	mov    -0x43706010(%ebp),%es            	
+[8e85f09f8fbb]	mov    -0x44706010(%ebp),%es            	
+[a4]	movsb  %ds:(%esi),%es:(%edi)            	%NP
+[a5]	movsl  %ds:(%esi),%es:(%edi)            	%NP
+[90]	nop                                     	
+[9d]	popf                                    	%NP
+[8f83f09f8fbf]	popl   -0x40706010(%ebx)                	
+[8f87f09f8fbf]	popl   -0x40706010(%edi)                	
+[8f82f09f8fbf]	popl   -0x40706010(%edx)                	
+[8f83f09f8fbe]	popl   -0x41706010(%ebx)                	
+[8f87f09f8fbe]	popl   -0x41706010(%edi)                	
+[8f82f09f8fbe]	popl   -0x41706010(%edx)                	
+[8f83f09f8fbd]	popl   -0x42706010(%ebx)                	
+[8f87f09f8fbd]	popl   -0x42706010(%edi)                	
+[8f82f09f8fbd]	popl   -0x42706010(%edx)                	
+[8f83f09f8fbc]	popl   -0x43706010(%ebx)                	
+[8f87f09f8fbc]	popl   -0x43706010(%edi)                	
+[8f82f09f8fbc]	popl   -0x43706010(%edx)                	
+[8f83f09f8fbb]	popl   -0x44706010(%ebx)                	
+[8f87f09f8fbb]	popl   -0x44706010(%edi)                	
+[8f82f09f8fbb]	popl   -0x44706010(%edx)                	
+[9c]	pushf                                   	
+[9e]	sahf                                    	%NP
+[ae]	scas   %es:(%edi),%al                   	%NP
+[af]	scas   %es:(%edi),%eax                  	%NP
+[aa]	stos   %al,%es:(%edi)                   	
+[ab]	stos   %eax,%es:(%edi)                  	
+[a9f09f87aa]	test   $0xaa879ff0,%eax                 	%NP
+[a9f09f87ac]	test   $0xac879ff0,%eax                 	%NP
+[a9f09f87af]	test   $0xaf879ff0,%eax                 	%NP
+[a9f09f87b0]	test   $0xb0879ff0,%eax                 	%NP
+[a9f09f87b2]	test   $0xb2879ff0,%eax                 	%NP
+[a9f09f87b4]	test   $0xb4879ff0,%eax                 	%NP
+[a9f09f8fbb]	test   $0xbb8f9ff0,%eax                 	%NP
+[a9f09f8fbc]	test   $0xbc8f9ff0,%eax                 	%NP
+[a9f09f8fbd]	test   $0xbd8f9ff0,%eax                 	%NP
+[a9f09f8fbe]	test   $0xbe8f9ff0,%eax                 	%NP
+[a9f09f87bf]	test   $0xbf879ff0,%eax                 	%NP
+[a9f09f8fbf]	test   $0xbf8f9ff0,%eax                 	%NP
+[95]	xchg   %eax,%ebp                        	
+[93]	xchg   %eax,%ebx                        	
+[91]	xchg   %eax,%ecx                        	
+[97]	xchg   %eax,%edi                        	
+[92]	xchg   %eax,%edx                        	
+[96]	xchg   %eax,%esi                        	
+[94]	xchg   %eax,%esp                        	
+[87a8f09f87bf]	xchg   %ebp,-0x40786010(%eax)           	
+[87a9f09f87bf]	xchg   %ebp,-0x40786010(%ecx)           	
+[87a8f09f87be]	xchg   %ebp,-0x41786010(%eax)           	
+[87a8f09f87bd]	xchg   %ebp,-0x42786010(%eax)           	
+[87a8f09f87bc]	xchg   %ebp,-0x43786010(%eax)           	
+[87a8f09f87bb]	xchg   %ebp,-0x44786010(%eax)           	
+[87a8f09f87ba]	xchg   %ebp,-0x45786010(%eax)           	
+[87adf09f87ba]	xchg   %ebp,-0x45786010(%ebp)           	
+[87aaf09f87ba]	xchg   %ebp,-0x45786010(%edx)           	
+[87adf09f87b9]	xchg   %ebp,-0x46786010(%ebp)           	
+[87aaf09f87b9]	xchg   %ebp,-0x46786010(%edx)           	
+[87aef09f87b9]	xchg   %ebp,-0x46786010(%esi)           	
+[87aaf09f87b8]	xchg   %ebp,-0x47786010(%edx)           	
+[87aef09f87b8]	xchg   %ebp,-0x47786010(%esi)           	
+[87a8f09f87b7]	xchg   %ebp,-0x48786010(%eax)           	
+[87adf09f87b7]	xchg   %ebp,-0x48786010(%ebp)           	
+[87abf09f87b7]	xchg   %ebp,-0x48786010(%ebx)           	
+[87aaf09f87b7]	xchg   %ebp,-0x48786010(%edx)           	
+[87aef09f87b7]	xchg   %ebp,-0x48786010(%esi)           	
+[87aef09f87b6]	xchg   %ebp,-0x49786010(%esi)           	
+[87a8f09f87b5]	xchg   %ebp,-0x4a786010(%eax)           	
+[87aff09f87b5]	xchg   %ebp,-0x4a786010(%edi)           	
+[87a8f09f87b4]	xchg   %ebp,-0x4b786010(%eax)           	
+[87abf09f87b4]	xchg   %ebp,-0x4b786010(%ebx)           	
+[87a9f09f87b4]	xchg   %ebp,-0x4b786010(%ecx)           	
+[87aff09f87b4]	xchg   %ebp,-0x4b786010(%edi)           	
+[87aef09f87b4]	xchg   %ebp,-0x4b786010(%esi)           	
+[87a8f09f87b3]	xchg   %ebp,-0x4c786010(%eax)           	
+[87adf09f87b3]	xchg   %ebp,-0x4c786010(%ebp)           	
+[87aef09f87b3]	xchg   %ebp,-0x4c786010(%esi)           	
+[87a8f09f87b2]	xchg   %ebp,-0x4d786010(%eax)           	
+[87adf09f87b2]	xchg   %ebp,-0x4d786010(%ebp)           	
+[87abf09f87b2]	xchg   %ebp,-0x4d786010(%ebx)           	
+[87a9f09f87b2]	xchg   %ebp,-0x4d786010(%ecx)           	
+[87aff09f87b2]	xchg   %ebp,-0x4d786010(%edi)           	
+[87aef09f87b2]	xchg   %ebp,-0x4d786010(%esi)           	
+[87a8f09f87b1]	xchg   %ebp,-0x4e786010(%eax)           	
+[87aef09f87b1]	xchg   %ebp,-0x4e786010(%esi)           	
+[87a8f09f87b0]	xchg   %ebp,-0x4f786010(%eax)           	
+[87adf09f87b0]	xchg   %ebp,-0x4f786010(%ebp)           	
+[87abf09f87b0]	xchg   %ebp,-0x4f786010(%ebx)           	
+[87a9f09f87b0]	xchg   %ebp,-0x4f786010(%ecx)           	
+[87abf09f87af]	xchg   %ebp,-0x50786010(%ebx)           	
+[87a9f09f87af]	xchg   %ebp,-0x50786010(%ecx)           	
+[87a8f09f87ae]	xchg   %ebp,-0x51786010(%eax)           	
+[87abf09f87ae]	xchg   %ebp,-0x51786010(%ebx)           	
+[87a8f09f87ad]	xchg   %ebp,-0x52786010(%eax)           	
+[87aaf09f87ad]	xchg   %ebp,-0x52786010(%edx)           	
+[87a8f09f87ac]	xchg   %ebp,-0x53786010(%eax)           	
+[87a9f09f87ac]	xchg   %ebp,-0x53786010(%ecx)           	
+[87aaf09f87ac]	xchg   %ebp,-0x53786010(%edx)           	
+[87a8f09f87ab]	xchg   %ebp,-0x54786010(%eax)           	
+[87a9f09f87aa]	xchg   %ebp,-0x55786010(%ecx)           	
+[87aff09f87aa]	xchg   %ebp,-0x55786010(%edi)           	
+[87aaf09f87aa]	xchg   %ebp,-0x55786010(%edx)           	
+[87aef09f87aa]	xchg   %ebp,-0x55786010(%esi)           	
+[87a8f09f87a9]	xchg   %ebp,-0x56786010(%eax)           	
+[87aef09f87a9]	xchg   %ebp,-0x56786010(%esi)           	
+[87a8f09f87a8]	xchg   %ebp,-0x57786010(%eax)           	
+[87aaf09f87a8]	xchg   %ebp,-0x57786010(%edx)           	
+[87aef09f87a8]	xchg   %ebp,-0x57786010(%esi)           	
+[87a8f09f87a6]	xchg   %ebp,-0x59786010(%eax)           	
+[87aaf09f87a6]	xchg   %ebp,-0x59786010(%edx)           	
+[87b8f09f87bf]	xchg   %edi,-0x40786010(%eax)           	
+[87b9f09f87bf]	xchg   %edi,-0x40786010(%ecx)           	
+[87baf09f87bf]	xchg   %edi,-0x40786010(%edx)           	
+[87b8f09f87be]	xchg   %edi,-0x41786010(%eax)           	
+[87baf09f87be]	xchg   %edi,-0x41786010(%edx)           	
+[87b8f09f87bd]	xchg   %edi,-0x42786010(%eax)           	
+[87b9f09f87bc]	xchg   %edi,-0x43786010(%ecx)           	
+[87bff09f87bc]	xchg   %edi,-0x43786010(%edi)           	
+[87b8f09f87bb]	xchg   %edi,-0x44786010(%eax)           	
+[87b9f09f87bb]	xchg   %edi,-0x44786010(%ecx)           	
+[87bbf09f87ba]	xchg   %edi,-0x45786010(%ebx)           	
+[87b8f09f87b9]	xchg   %edi,-0x46786010(%eax)           	
+[87b9f09f87b9]	xchg   %edi,-0x46786010(%ecx)           	
+[87bef09f87b9]	xchg   %edi,-0x46786010(%esi)           	
+[87b8f09f87b8]	xchg   %edi,-0x47786010(%eax)           	
+[87baf09f87b8]	xchg   %edi,-0x47786010(%edx)           	
+[87b8f09f87b7]	xchg   %edi,-0x48786010(%eax)           	
+[87b9f09f87b7]	xchg   %edi,-0x48786010(%ecx)           	
+[87b8f09f87b4]	xchg   %edi,-0x4b786010(%eax)           	
+[87b9f09f87b4]	xchg   %edi,-0x4b786010(%ecx)           	
+[87b8f09f87b3]	xchg   %edi,-0x4c786010(%eax)           	
+[87bbf09f87b3]	xchg   %edi,-0x4c786010(%ebx)           	
+[87b9f09f87b3]	xchg   %edi,-0x4c786010(%ecx)           	
+[87baf09f87b3]	xchg   %edi,-0x4c786010(%edx)           	
+[87b8f09f87b2]	xchg   %edi,-0x4d786010(%eax)           	
+[87b9f09f87b2]	xchg   %edi,-0x4d786010(%ecx)           	
+[87bff09f87b2]	xchg   %edi,-0x4d786010(%edi)           	
+[87baf09f87b2]	xchg   %edi,-0x4d786010(%edx)           	
+[87b8f09f87b1]	xchg   %edi,-0x4e786010(%eax)           	
+[87b9f09f87b1]	xchg   %edi,-0x4e786010(%ecx)           	
+[87b8f09f87b0]	xchg   %edi,-0x4f786010(%eax)           	
+[87bdf09f87b0]	xchg   %edi,-0x4f786010(%ebp)           	
+[87b9f09f87b0]	xchg   %edi,-0x4f786010(%ecx)           	
+[87b8f09f87af]	xchg   %edi,-0x50786010(%eax)           	
+[87b9f09f87af]	xchg   %edi,-0x50786010(%ecx)           	
+[87b8f09f87ae]	xchg   %edi,-0x51786010(%eax)           	
+[87bbf09f87ae]	xchg   %edi,-0x51786010(%ebx)           	
+[87b8f09f87ad]	xchg   %edi,-0x52786010(%eax)           	
+[87b9f09f87ad]	xchg   %edi,-0x52786010(%ecx)           	
+[87b8f09f87ac]	xchg   %edi,-0x53786010(%eax)           	
+[87bbf09f87ac]	xchg   %edi,-0x53786010(%ebx)           	
+[87b9f09f87ac]	xchg   %edi,-0x53786010(%ecx)           	
+[87baf09f87ac]	xchg   %edi,-0x53786010(%edx)           	
+[87b9f09f87ab]	xchg   %edi,-0x54786010(%ecx)           	
+[87b8f09f87aa]	xchg   %edi,-0x55786010(%eax)           	
+[87bbf09f87aa]	xchg   %edi,-0x55786010(%ebx)           	
+[87bef09f87aa]	xchg   %edi,-0x55786010(%esi)           	
+[87b8f09f87a9]	xchg   %edi,-0x56786010(%eax)           	
+[87b9f09f87a9]	xchg   %edi,-0x56786010(%ecx)           	
+[87b8f09f87a8]	xchg   %edi,-0x57786010(%eax)           	
+[87bbf09f87a8]	xchg   %edi,-0x57786010(%ebx)           	
+[87b9f09f87a8]	xchg   %edi,-0x57786010(%ecx)           	
+[87b8f09f87a7]	xchg   %edi,-0x58786010(%eax)           	
+[87b8f09f87a6]	xchg   %edi,-0x59786010(%eax)           	
+[87bbf09f87a6]	xchg   %edi,-0x59786010(%ebx)           	
+[87b9f09f87a6]	xchg   %edi,-0x59786010(%ecx)           	
+[87bff09f87a6]	xchg   %edi,-0x59786010(%edi)           	
+[87baf09f87a6]	xchg   %edi,-0x59786010(%edx)           	
+[87b0f09f87bf]	xchg   %esi,-0x40786010(%eax)           	
+[87b3f09f87bf]	xchg   %esi,-0x40786010(%ebx)           	
+[87b2f09f87bf]	xchg   %esi,-0x40786010(%edx)           	
+[87b0f09f87be]	xchg   %esi,-0x41786010(%eax)           	
+[87b5f09f87be]	xchg   %esi,-0x41786010(%ebp)           	
+[87b1f09f87be]	xchg   %esi,-0x41786010(%ecx)           	
+[87b2f09f87be]	xchg   %esi,-0x41786010(%edx)           	
+[87b2f09f87bd]	xchg   %esi,-0x42786010(%edx)           	
+[87b0f09f87bc]	xchg   %esi,-0x43786010(%eax)           	
+[87b5f09f87bc]	xchg   %esi,-0x43786010(%ebp)           	
+[87b7f09f87bc]	xchg   %esi,-0x43786010(%edi)           	
+[87b2f09f87bc]	xchg   %esi,-0x43786010(%edx)           	
+[87b1f09f87bb]	xchg   %esi,-0x44786010(%ecx)           	
+[87b2f09f87bb]	xchg   %esi,-0x44786010(%edx)           	
+[87b3f09f87ba]	xchg   %esi,-0x45786010(%ebx)           	
+[87b1f09f87ba]	xchg   %esi,-0x45786010(%ecx)           	
+[87b7f09f87ba]	xchg   %esi,-0x45786010(%edi)           	
+[87b2f09f87ba]	xchg   %esi,-0x45786010(%edx)           	
+[87b5f09f87b9]	xchg   %esi,-0x46786010(%ebp)           	
+[87b1f09f87b9]	xchg   %esi,-0x46786010(%ecx)           	
+[87b2f09f87b9]	xchg   %esi,-0x46786010(%edx)           	
+[87b5f09f87b8]	xchg   %esi,-0x47786010(%ebp)           	
+[87b1f09f87b8]	xchg   %esi,-0x47786010(%ecx)           	
+[87b7f09f87b8]	xchg   %esi,-0x47786010(%edi)           	
+[87b2f09f87b8]	xchg   %esi,-0x47786010(%edx)           	
+[87b0f09f87b7]	xchg   %esi,-0x48786010(%eax)           	
+[87b5f09f87b7]	xchg   %esi,-0x48786010(%ebp)           	
+[87b3f09f87b7]	xchg   %esi,-0x48786010(%ebx)           	
+[87b1f09f87b7]	xchg   %esi,-0x48786010(%ecx)           	
+[87b2f09f87b7]	xchg   %esi,-0x48786010(%edx)           	
+[87b2f09f87b6]	xchg   %esi,-0x49786010(%edx)           	
+[87b0f09f87b5]	xchg   %esi,-0x4a786010(%eax)           	
+[87b3f09f87b5]	xchg   %esi,-0x4a786010(%ebx)           	
+[87b2f09f87b5]	xchg   %esi,-0x4a786010(%edx)           	
+[87b3f09f87b4]	xchg   %esi,-0x4b786010(%ebx)           	
+[87b7f09f87b4]	xchg   %esi,-0x4b786010(%edi)           	
+[87b2f09f87b4]	xchg   %esi,-0x4b786010(%edx)           	
+[87b0f09f87b3]	xchg   %esi,-0x4c786010(%eax)           	
+[87b5f09f87b3]	xchg   %esi,-0x4c786010(%ebp)           	
+[87b2f09f87b3]	xchg   %esi,-0x4c786010(%edx)           	
+[87b0f09f87b2]	xchg   %esi,-0x4d786010(%eax)           	
+[87b5f09f87b2]	xchg   %esi,-0x4d786010(%ebp)           	
+[87b2f09f87b2]	xchg   %esi,-0x4d786010(%edx)           	
+[87b5f09f87b1]	xchg   %esi,-0x4e786010(%ebp)           	
+[87b3f09f87b1]	xchg   %esi,-0x4e786010(%ebx)           	
+[87b2f09f87b1]	xchg   %esi,-0x4e786010(%edx)           	
+[87b5f09f87b0]	xchg   %esi,-0x4f786010(%ebp)           	
+[87b1f09f87b0]	xchg   %esi,-0x4f786010(%ecx)           	
+[87b2f09f87b0]	xchg   %esi,-0x4f786010(%edx)           	
+[87b0f09f87ae]	xchg   %esi,-0x51786010(%eax)           	
+[87b3f09f87ae]	xchg   %esi,-0x51786010(%ebx)           	
+[87b1f09f87ae]	xchg   %esi,-0x51786010(%ecx)           	
+[87b0f09f87ad]	xchg   %esi,-0x52786010(%eax)           	
+[87b5f09f87ad]	xchg   %esi,-0x52786010(%ebp)           	
+[87b2f09f87ad]	xchg   %esi,-0x52786010(%edx)           	
+[87b0f09f87ac]	xchg   %esi,-0x53786010(%eax)           	
+[87b5f09f87ac]	xchg   %esi,-0x53786010(%ebp)           	
+[87b3f09f87ac]	xchg   %esi,-0x53786010(%ebx)           	
+[87b2f09f87ac]	xchg   %esi,-0x53786010(%edx)           	
+[87b5f09f87ab]	xchg   %esi,-0x54786010(%ebp)           	
+[87b3f09f87ab]	xchg   %esi,-0x54786010(%ebx)           	
+[87b2f09f87ab]	xchg   %esi,-0x54786010(%edx)           	
+[87b0f09f87aa]	xchg   %esi,-0x55786010(%eax)           	
+[87b5f09f87aa]	xchg   %esi,-0x55786010(%ebp)           	
+[87b3f09f87aa]	xchg   %esi,-0x55786010(%ebx)           	
+[87b7f09f87aa]	xchg   %esi,-0x55786010(%edi)           	
+[87b2f09f87aa]	xchg   %esi,-0x55786010(%edx)           	
+[87b2f09f87a9]	xchg   %esi,-0x56786010(%edx)           	
+[87b3f09f87a8]	xchg   %esi,-0x57786010(%ebx)           	
+[87b1f09f87a8]	xchg   %esi,-0x57786010(%ecx)           	
+[87b2f09f87a8]	xchg   %esi,-0x57786010(%edx)           	
+[87b1f09f87a7]	xchg   %esi,-0x58786010(%ecx)           	
+[87b5f09f87a6]	xchg   %esi,-0x59786010(%ebp)           	
+[87b3f09f87a6]	xchg   %esi,-0x59786010(%ebx)           	
+[87b1f09f87a6]	xchg   %esi,-0x59786010(%ecx)           	
+[87b2f09f87a6]	xchg   %esi,-0x59786010(%edx)           	
+[87b6f09f87a6]	xchg   %esi,-0x59786010(%esi)           	
+[87a7f09f87bf]	xchg   %esp,-0x40786010(%edi)           	
+[87a6f09f87bf]	xchg   %esp,-0x40786010(%esi)           	
+[87a7f09f87be]	xchg   %esp,-0x41786010(%edi)           	
+[87a6f09f87bd]	xchg   %esp,-0x42786010(%esi)           	
+[87a7f09f87bc]	xchg   %esp,-0x43786010(%edi)           	
+[87a6f09f87bc]	xchg   %esp,-0x43786010(%esi)           	
+[87a7f09f87bb]	xchg   %esp,-0x44786010(%edi)           	
+[87a6f09f87ba]	xchg   %esp,-0x45786010(%esi)           	
+[87a7f09f87b9]	xchg   %esp,-0x46786010(%edi)           	
+[87a6f09f87b9]	xchg   %esp,-0x46786010(%esi)           	
+[87a7f09f87b8]	xchg   %esp,-0x47786010(%edi)           	
+[87a6f09f87b8]	xchg   %esp,-0x47786010(%esi)           	
+[87a7f09f87b7]	xchg   %esp,-0x48786010(%edi)           	
+[87a6f09f87b7]	xchg   %esp,-0x48786010(%esi)           	
+[87a7f09f87b6]	xchg   %esp,-0x49786010(%edi)           	
+[87a6f09f87b6]	xchg   %esp,-0x49786010(%esi)           	
+[87a7f09f87b4]	xchg   %esp,-0x4b786010(%edi)           	
+[87a6f09f87b4]	xchg   %esp,-0x4b786010(%esi)           	
+[87a7f09f87b3]	xchg   %esp,-0x4c786010(%edi)           	
+[87a7f09f87b2]	xchg   %esp,-0x4d786010(%edi)           	
+[87a6f09f87b2]	xchg   %esp,-0x4d786010(%esi)           	
+[87a7f09f87b1]	xchg   %esp,-0x4e786010(%edi)           	
+[87a6f09f87b1]	xchg   %esp,-0x4e786010(%esi)           	
+[87a7f09f87af]	xchg   %esp,-0x50786010(%edi)           	
+[87a7f09f87ae]	xchg   %esp,-0x51786010(%edi)           	
+[87a6f09f87ae]	xchg   %esp,-0x51786010(%esi)           	
+[87a7f09f87ad]	xchg   %esp,-0x52786010(%edi)           	
+[87a7f09f87ac]	xchg   %esp,-0x53786010(%edi)           	
+[87a6f09f87ac]	xchg   %esp,-0x53786010(%esi)           	
+[87a7f09f87ab]	xchg   %esp,-0x54786010(%edi)           	
+[87a6f09f87ab]	xchg   %esp,-0x54786010(%esi)           	
+[87a7f09f87aa]	xchg   %esp,-0x55786010(%edi)           	
+[87a6f09f87aa]	xchg   %esp,-0x55786010(%esi)           	
+[87a7f09f87a9]	xchg   %esp,-0x56786010(%edi)           	
+[87a6f09f87a9]	xchg   %esp,-0x56786010(%esi)           	
+[87a6f09f87a8]	xchg   %esp,-0x57786010(%esi)           	
+[87a7f09f87a7]	xchg   %esp,-0x58786010(%edi)           	
+[87a7f09f87a6]	xchg   %esp,-0x59786010(%edi)           	
