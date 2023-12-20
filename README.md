@@ -5,7 +5,7 @@ Based on Work By Hаdrien Ваrrаl and Georges-Axel Jaloyan for RISC-V: https:/
 ```
 
 ### x86/naive
-- Consists of Naive Disassembly outputs.
+- Consists of naive disassembly generators and files.
 
 ### x86/block.cpp
 - Generates code snippets from sequence of emojis and their corresponding x86 instructions
