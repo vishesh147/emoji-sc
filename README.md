@@ -1,7 +1,7 @@
 # x86: Emoji Shellcoding
 
 ```
-Based on Work By Hаdrien Ваrrаl and Georges-Axel Jaloyan
+Based on Work By Hаdrien Ваrrаl and Georges-Axel Jaloyan for RISC-V: https://github.com/RischardV/emoji-shellcoding
 ```
 
 ### x86/naive
