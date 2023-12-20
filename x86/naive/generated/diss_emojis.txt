@@ -1,0 +1,169 @@
+
+('23efb88fe283a3', '#️⃣')
+23ef             : and ebp,edi
+b88fe283a3       : mov eax,0xa383e28f
+
+('2aefb88fe283a3', '*️⃣')
+2aef             : sub ch,bh
+b88fe283a3       : mov eax,0xa383e28f
+
+('30efb88fe283a3', '0️⃣')
+30ef             : xor bh,ch
+b88fe283a3       : mov eax,0xa383e28f
+
+('31efb88fe283a3', '1️⃣')
+31ef             : xor edi,ebp
+b88fe283a3       : mov eax,0xa383e28f
+
+('32efb88fe283a3', '2️⃣')
+32ef             : xor ch,bh
+b88fe283a3       : mov eax,0xa383e28f
+
+('33efb88fe283a3', '3️⃣')
+33ef             : xor ebp,edi
+b88fe283a3       : mov eax,0xa383e28f
+
+('34efb88fe283a3', '4️⃣')
+34ef             : xor al,0xef
+b88fe283a3       : mov eax,0xa383e28f
+
+('36efb88fe283a3', '6️⃣')
+36ef             : out dx,eax
+b88fe283a3       : mov eax,0xa383e28f
+
+('37efb88fe283a3', '7️⃣')
+37               : aaa
+ef               : out dx,eax
+b88fe283a3       : mov eax,0xa383e28f
+
+('38efb88fe283a3', '8️⃣')
+38ef             : cmp bh,ch
+b88fe283a3       : mov eax,0xa383e28f
+
+('39efb88fe283a3', '9️⃣')
+39ef             : cmp edi,ebp
+b88fe283a3       : mov eax,0xa383e28f
+
+('e28c9b', '⌛')
+e28c             : loop 0xffffff8e
+9b               : wait
+
+('e28faa', '⏪')
+e28f             : loop 0xffffff91
+aa               : stosb
+
+('e28fab', '⏫')
+e28f             : loop 0xffffff91
+ab               : stosd
+
+('e28fac', '⏬')
+e28f             : loop 0xffffff91
+ac               : lodsb
+
+('e29894', '☔')
+e298             : loop 0xffffff9a
+94               : xchg esp,eax
+
+('e29895', '☕')
+e298             : loop 0xffffff9a
+95               : xchg ebp,eax
+
+('e29990', '♐')
+e299             : loop 0xffffff9b
+90               : nop
+
+('e29991', '♑')
+e299             : loop 0xffffff9b
+91               : xchg ecx,eax
+
+('e29992', '♒')
+e299             : loop 0xffffff9b
+92               : xchg edx,eax
+
+('e29993', '♓')
+e299             : loop 0xffffff9b
+93               : xchg ebx,eax
+
+('e29a93', '⚓')
+e29a             : loop 0xffffff9c
+93               : xchg ebx,eax
+
+('e29aaa', '⚪')
+e29a             : loop 0xffffff9c
+aa               : stosb
+
+('e29aab', '⚫')
+e29a             : loop 0xffffff9c
+ab               : stosd
+
+('e29b94', '⛔')
+e29b             : loop 0xffffff9d
+94               : xchg esp,eax
+
+('e29baa', '⛪')
+e29b             : loop 0xffffff9d
+aa               : stosb
+
+('e29bb9f09f8fbb', '⛹🏻')
+e29b             : loop 0xffffff9d
+b9f09f8fbb       : mov ecx,0xbb8f9ff0
+
+('e29bb9f09f8fbc', '⛹🏼')
+e29b             : loop 0xffffff9d
+b9f09f8fbc       : mov ecx,0xbc8f9ff0
+
+('e29bb9f09f8fbd', '⛹🏽')
+e29b             : loop 0xffffff9d
+b9f09f8fbd       : mov ecx,0xbd8f9ff0
+
+('e29bb9f09f8fbe', '⛹🏾')
+e29b             : loop 0xffffff9d
+b9f09f8fbe       : mov ecx,0xbe8f9ff0
+
+('e29bb9f09f8fbf', '⛹🏿')
+e29b             : loop 0xffffff9d
+b9f09f8fbf       : mov ecx,0xbf8f9ff0
+
+('e29d93', '❓')
+e29d             : loop 0xffffff9f
+93               : xchg ebx,eax
+
+('e29d94', '❔')
+e29d             : loop 0xffffff9f
+94               : xchg esp,eax
+
+('e29d95', '❕')
+e29d             : loop 0xffffff9f
+95               : xchg ebp,eax
+
+('e29d97', '❗')
+e29d             : loop 0xffffff9f
+97               : xchg edi,eax
+
+('e29e95', '➕')
+e29e             : loop 0xffffffa0
+95               : xchg ebp,eax
+
+('e29e96', '➖')
+e29e             : loop 0xffffffa0
+96               : xchg esi,eax
+
+('e29e97', '➗')
+e29e             : loop 0xffffffa0
+97               : xchg edi,eax
+
+('e2ac9b', '⬛')
+e2ac             : loop 0xffffffae
+9b               : wait
+
+('e2ac9c', '⬜')
+e2ac             : loop 0xffffffae
+9c               : pushfd
+
+('e2ad90', '⭐')
+e2ad             : loop 0xffffffaf
+90               : nop
+
+('e2ad95', '⭕')
+e2ad             : loop 0xffffffaf
+95               : xchg ebp,eax
